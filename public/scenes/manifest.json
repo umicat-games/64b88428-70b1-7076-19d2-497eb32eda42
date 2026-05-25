@@ -5,10 +5,202 @@
   "version": "1.0.0",
   "initialScene": "main",
   "scenes": [
-    { "id": "main", "type": "world", "file": "world/main.json", "hud": "game-hud" }
+    {
+      "id": "main",
+      "type": "world",
+      "file": "world/main.json",
+      "hud": "game-hud"
+    }
   ],
   "huds": [
-    { "id": "game-hud", "file": "hud/game-hud.json" }
+    {
+      "id": "game-hud",
+      "file": "hud/game-hud.json"
+    }
   ],
-  "assets": []
+  "assets": [
+    {
+      "id": "grass_tiles_v2",
+      "textureKey": "grass_tiles_v2",
+      "path": "uploaded/grass_tiles_v2.png",
+      "kind": "spritesheet",
+      "spriteSheetConfig": {
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "margin": 0,
+        "spacing": 0
+      },
+      "loadUrl": "https://cdn.umicat.ai/uploads/7ea12214-b2c1-486a-9669-be49f7e8f849/grass_tiles_v2.png",
+      "tileset": {
+        "cellSize": {
+          "width": 16,
+          "height": 16
+        },
+        "cols": 11,
+        "rows": 7,
+        "autotile": {
+          "kind": "wang-8bit",
+          "terrains": [
+            {
+              "id": "grass",
+              "terrainTag": "grass",
+              "ruleMap": {
+                "0": 36,
+                "1": 25,
+                "4": 33,
+                "5": 37,
+                "7": 22,
+                "16": 3,
+                "17": 14,
+                "20": 4,
+                "21": 48,
+                "23": 15,
+                "28": 0,
+                "29": 26,
+                "31": 11,
+                "64": 35,
+                "65": 40,
+                "68": 34,
+                "69": 41,
+                "71": 39,
+                "80": 7,
+                "81": 51,
+                "84": 8,
+                "85": 52,
+                "87": 42,
+                "92": 6,
+                "93": 31,
+                "95": 50,
+                "112": 2,
+                "113": 29,
+                "116": 5,
+                "117": 32,
+                "119": 20,
+                "124": 1,
+                "125": 30,
+                "127": 28,
+                "193": 24,
+                "197": 38,
+                "199": 23,
+                "209": 18,
+                "213": 43,
+                "215": 19,
+                "221": 9,
+                "223": 17,
+                "241": 13,
+                "245": 49,
+                "247": 16,
+                "253": 27,
+                "255": 12
+              }
+            }
+          ]
+        }
+      },
+      "pixelArt": true
+    },
+    {
+      "id": "8f7a81f6-0fe3-4f50-a37f-809e47a2a6bc",
+      "filename": "water_tile_animation.png",
+      "modality": "spritesheet",
+      "sizeBytes": 251,
+      "url": "https://cdn.umicat.ai/uploads/7ea12214-b2c1-486a-9669-be49f7e8f849/water_tile_animation.png",
+      "uploadedAt": "2026-05-25T00:33:50.724921575Z",
+      "source": "upload",
+      "ownerType": "private",
+      "packName": "New Pack",
+      "packIds": [
+        "04f61fe5-a416-4569-9011-a61f02183ed1"
+      ],
+      "description": "Animated water tile strip with four frames for water animation.",
+      "tags": [
+        "water",
+        "tile",
+        "animation",
+        "tileset",
+        "pixel-art"
+      ],
+      "atlasFormat": "uniform",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frameCount": 4,
+      "frameMargin": 0,
+      "frameSpacing": 0,
+      "path": "",
+      "pixelArt": true,
+      "visionConfidence": "high",
+      "tileset": {
+        "cellSize": {
+          "width": 16,
+          "height": 16
+        },
+        "cols": 4,
+        "rows": 1,
+        "animations": [
+          {
+            "id": "animation-2",
+            "rootTileIndex": 0,
+            "frames": [
+              {
+                "tileIndex": 0,
+                "duration": 250
+              },
+              {
+                "tileIndex": 1,
+                "duration": 250
+              },
+              {
+                "tileIndex": 2,
+                "duration": 250
+              },
+              {
+                "tileIndex": 3,
+                "duration": 250
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "water_tile_animation",
+      "textureKey": "water_tile_animation",
+      "path": "uploaded/water_tile_animation.png",
+      "kind": "image",
+      "loadUrl": "https://cdn.umicat.ai/uploads/7ea12214-b2c1-486a-9669-be49f7e8f849/water_tile_animation.png",
+      "tileset": {
+        "cellSize": {
+          "width": 16,
+          "height": 16
+        },
+        "cols": 4,
+        "rows": 1,
+        "animations": [
+          {
+            "id": "animation-2",
+            "rootTileIndex": 0,
+            "frames": [
+              {
+                "tileIndex": 0,
+                "duration": 250
+              },
+              {
+                "tileIndex": 1,
+                "duration": 250
+              },
+              {
+                "tileIndex": 2,
+                "duration": 250
+              },
+              {
+                "tileIndex": 3,
+                "duration": 250
+              }
+            ]
+          }
+        ]
+      },
+      "pixelArt": true
+    }
+  ]
 }
