@@ -38,6 +38,120 @@
         },
         "cols": 11,
         "rows": 7,
+        "tiles": {
+          "0": {
+            "solid": true,
+            "collisionRects": [
+              {
+                "x": 1,
+                "y": 1,
+                "w": 15,
+                "h": 4
+              },
+              {
+                "x": 1,
+                "y": 5,
+                "w": 6,
+                "h": 11
+              }
+            ]
+          },
+          "1": {
+            "solid": true,
+            "collisionRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 6
+              }
+            ]
+          },
+          "2": {
+            "solid": true,
+            "collisionRects": [
+              {
+                "x": 0,
+                "y": 1,
+                "w": 16,
+                "h": 4
+              },
+              {
+                "x": 8,
+                "y": 5,
+                "w": 7,
+                "h": 11
+              }
+            ]
+          },
+          "11": {
+            "solid": true,
+            "collisionRects": [
+              {
+                "x": 1,
+                "y": 0,
+                "w": 5,
+                "h": 16
+              }
+            ]
+          },
+          "13": {
+            "solid": true,
+            "collisionRects": [
+              {
+                "x": 8,
+                "y": 0,
+                "w": 7,
+                "h": 16
+              }
+            ]
+          },
+          "22": {
+            "solid": true,
+            "collisionRects": [
+              {
+                "x": 1,
+                "y": 0,
+                "w": 5,
+                "h": 15
+              },
+              {
+                "x": 1,
+                "y": 10,
+                "w": 15,
+                "h": 5
+              }
+            ]
+          },
+          "23": {
+            "solid": true,
+            "collisionRects": [
+              {
+                "x": 0,
+                "y": 8,
+                "w": 16,
+                "h": 7
+              }
+            ]
+          },
+          "24": {
+            "solid": true,
+            "collisionRects": [
+              {
+                "x": 10,
+                "y": 0,
+                "w": 5,
+                "h": 15
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "w": 15,
+                "h": 6
+              }
+            ]
+          }
+        },
         "autotile": {
           "kind": "wang-8bit",
           "terrains": [
