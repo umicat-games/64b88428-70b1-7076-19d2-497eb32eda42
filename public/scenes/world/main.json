@@ -7283,6 +7283,21 @@
           ]
         }
       ]
+    },
+    {
+      "id": "player",
+      "kind": "sprite",
+      "role": "player",
+      "transform": {
+        "x": 640,
+        "y": 360,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "depth": 15
+      },
+      "assetId": "basic_character_spritesheet",
+      "frame": 0
     }
   ]
 }
